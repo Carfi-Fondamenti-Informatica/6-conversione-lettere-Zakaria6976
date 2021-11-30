@@ -1,14 +1,25 @@
-#include <iostream>
-#include "lib.h"
+//
+// Created by Utente on 30/11/2021.
+//
 
-using namespace std;
-int main(){
-    char a;
-    cin >> a;
-    if (!verifica( a)) {
-        cout << "errore"<<endl;
-    }else{
-        cout <<conversione(a)<<endl;
+#include "lib.h"
+char conversione (char a) {
+    bool t = true;
+    if (a >= 97 and a <= 122) {
+        return a - 32;
     }
-    return 0;
+    if (a >= 65 and a <= 90) {
+
+        return a + 32;
+    }
 }
+bool verifica (char a) {
+    bool t = true;
+    if ((a >= 97 and a <= 122) or (a >= 65 and a <= 90)) {
+        return true;
+    }else{
+        return false;
+    }
+
+}
+
