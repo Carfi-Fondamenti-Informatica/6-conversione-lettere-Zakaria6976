@@ -1,5 +1,14 @@
 #include <iostream>
+#include "lib.h"
 
-int main(){
+using namespace std;
+int main() {
+  char a=a;
+  cin>>a;
+  if(conversione (a)==false){
+    cout<< "errore";
+  }esle{
+    cout<<a;
+  }
   return 0;
 }
