@@ -1,10 +1,11 @@
 //
+// Created by Utente on 30/11/2021.
 //
-//
 
-#ifndef ESERCITAZIONE_6_LIBR_H
-#define ESERCITAZIONE_6_LIB_H
+#ifndef UNTITLED2_LIB_H
+#define UNTITLED2_LIB_H
+bool verifica (char);
+char conversione (char);
 
-#endif //ESERCITAZIONE_6_LIBR_H
+#endif //UNTITLED2_LIB_H
 
-bool conversione (char&);
