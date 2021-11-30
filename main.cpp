@@ -7,7 +7,7 @@ int main() {
   cin>>a;
   if(conversione (a)==false){
     cout<< "errore";
-  }esle{
+  }else{
     cout<<a;
   }
   return 0;
